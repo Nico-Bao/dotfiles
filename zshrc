@@ -7,6 +7,9 @@ echo "Hello from .zshrc"
 # Create Aliases
 alias ls='ls -lAFh'
 
+# define a named directory to use ~icloud instead of the long path
+hash -d icloud="$HOME/Library/Mobile Documents/com~apple~CloudDocs"
+
 # Customize Prompt(s)
 PROMPT='
 %1~ %L %# '
