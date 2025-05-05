@@ -1,20 +1,21 @@
-# Taps (repositories) 
 tap "homebrew/autoupdate"
 tap "mongodb/brew"
-
-# Brews (packages)
+# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Modern, maintained replacement for ls
 brew "eza"
-brew "git" # is this not already installed by default?
+# Distributed revision control system
+brew "git"
+# User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
-
-# Casks (macOS applications)
+# HTTP and GraphQL Client
 cask "insomnia"
+# Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
+# .NET IDE
 cask "rider"
-
-# VSCode Extensions?
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "mongodb.mongodb-vscode"
