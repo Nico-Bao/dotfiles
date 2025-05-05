@@ -19,6 +19,8 @@ PROMPT='
 RPROMPT='%*'
 
 # Add Locations to $PATH Variable
+# Add Visual Studio Code code command
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Write Handy Functions
 function mkcd() {
