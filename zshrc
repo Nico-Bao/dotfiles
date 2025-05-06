@@ -1,12 +1,16 @@
 echo "Hello from .zshrc"
 
 # Set Variables
+# Syntax highlighting for man pages using bat
+export MANPAGER="sh -c 'sed -u -e \"s/\\x1B\[[0-9;]*m//g; s/.\\x08//g\" | bat -p -lman'"
+# Only if you want to disable the gatekeeper for casks ("Sure to open file from the internet?")"
+# export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH Options
 
 # Create Aliases
-alias ls='ls -lAFh'
-
+alias ls='eza -lahF --git --no-user --no-time --no-filesize' # or, without exa 'ls -lahF'
+ 
 # define a named directory to use ~icloud instead of the long path
 hash -d icloud="$HOME/Library/Mobile Documents/com~apple~CloudDocs"
 
@@ -17,6 +21,8 @@ PROMPT='
 RPROMPT='%*'
 
 # Add Locations to $PATH Variable
+# Add Visual Studio Code code command
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Write Handy Functions
 function mkcd() {
