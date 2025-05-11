@@ -10,6 +10,7 @@ export MANPAGER="sh -c 'sed -u -e \"s/\\x1B\[[0-9;]*m//g; s/.\\x08//g\" | bat -p
 
 # Create Aliases
 alias ls='eza -lahF --git --no-user --no-time --no-filesize' # or, without exa 'ls -lahF'
+alias 5130='open https://localhost:5130/chart-test'
  
 # define a named directory to use ~icloud instead of the long path
 hash -d icloud="$HOME/Library/Mobile Documents/com~apple~CloudDocs"
@@ -21,7 +22,7 @@ PROMPT='
 RPROMPT='%*'
 
 # Add Locations to $PATH Variable
-# Add Visual Studio Code code command
+# Add VSC code command (can also be done in VSC)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Write Handy Functions
@@ -30,4 +31,3 @@ function mkcd() {
 }
 
 # Use ZSH Plugins
-

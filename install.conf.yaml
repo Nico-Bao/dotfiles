@@ -1,7 +1,9 @@
+#?
 - defaults:
     link:
       relink: true
 
+#?
 - clean: ['~']
 
 - link:
@@ -10,11 +12,12 @@
     ~/.zshrc:
     ~/.gitconfig:
 
-- create:
-    - ~/Work
+- create: #For creating directories
+    - 
 
+# For running commands
 - shell:
-  -  #testing running an external script file
-    command: ./setup_homebrew.zsh
+  - 
+    command: ./brew_setup.zsh
     stdout: true  #to allow output
     stderr: true  #to show eventual errors

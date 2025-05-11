@@ -12,6 +12,8 @@ brew "httpie"
 brew "mas"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
+# Developer platform
+cask "dotnet-sdk"
 # HTTP and GraphQL Client
 cask "insomnia"
 # Clipboard manager
@@ -45,12 +47,7 @@ mas "WhatsApp", id: 310633997
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "mongodb.mongodb-vscode"
-vscode "ms-dotnettools.csharp"
-vscode "ms-dotnettools.vscode-dotnet-runtime"
-vscode "ms-vscode-remote.remote-ssh"
-vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode.live-server"
-vscode "ms-vscode.remote-explorer"
 vscode "ms-vscode.vscode-speech"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "openai.chatgpt"
