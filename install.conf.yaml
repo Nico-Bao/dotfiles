@@ -12,8 +12,6 @@
     ~/.zshrc:
     ~/.gitconfig:
     ~/.config/bat: 
-#        create: true
-#        path: config/bat
 
 #- create: #For creating directories
 #    - ~/Folder
