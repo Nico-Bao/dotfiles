@@ -2,8 +2,13 @@
 
 echo "\n<<< Starting Homebrew setup... >>>\n"
 
-# Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# Install Homebrew, if not already installed
+if exists brew; then
+  echo "brew exists, skipping install"
+else
+  echo "brew doesn't exist, continuing with install"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
 
 # Install Homebrew packages
 # brew install httpie <- this works too but it's more convenient to use the Brewfile:
