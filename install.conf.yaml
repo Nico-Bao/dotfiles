@@ -10,6 +10,7 @@
 #   LINK_PATH: REAL_PATH (if omitted, it will be the link file
 #     without the dot saved in this directory
     ~/.zshrc:
+    ~/.zshenv:
     ~/.gitconfig:
     ~/.config/bat: 
 
