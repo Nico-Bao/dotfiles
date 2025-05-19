@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+# This shebang would also work: bin/zsh
 
 echo "\n<<< Starting Homebrew setup... >>>\n"
 
