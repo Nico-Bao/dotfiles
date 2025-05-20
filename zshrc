@@ -11,6 +11,7 @@ export MANPAGER="sh -c 'sed -u -e \"s/\\x1B\[[0-9;]*m//g; s/.\\x08//g\" | bat -p
 # Create Aliases
 alias ls='eza -lahF --git --no-user --no-time --no-filesize' # or, without exa 'ls -lahF'
 alias 5130='open https://localhost:5130/chart-test'
+alias trail='<<<${(F)path}' # print path variable but each location on a new line
  
 # define a named directory to use ~icloud instead of the long path
 hash -d icloud="$HOME/Library/Mobile Documents/com~apple~CloudDocs"
