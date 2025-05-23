@@ -19,7 +19,6 @@
 
 # For running commands
 - shell:
-  - 
-    command: ./brew_setup.zsh
+  - command: ./brew_setup.zsh
     stdout: true  #to allow output
     stderr: true  #to show eventual errors
