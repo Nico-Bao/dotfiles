@@ -10,8 +10,6 @@ brew "git"
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
-# Platform built on V8 to build network applications
-brew "node"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # High-performance, schema-free, document-oriented database

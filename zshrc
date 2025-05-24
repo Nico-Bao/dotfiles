@@ -26,13 +26,9 @@ PROMPT='
 
 RPROMPT='%*'
 
-# Add Locations to $path Array
-# typeset -U path # avoid duplicates in path
-# path=(
-# #    Add VSC code command (I just did it in VSC)
-#    $path
-#    "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-# )
+# Add Locations to $PATH Variable
+# Add VSC code command (can also be done in VSC)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Write Handy Functions
 function mkcd() {
