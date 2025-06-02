@@ -4,6 +4,8 @@ tap "mongodb/brew"
 brew "bat"
 # Modern, maintained replacement for ls
 brew "eza"
+# GitHub command-line tool
+brew "gh"
 # Distributed revision control system
 brew "git"
 # User-friendly cURL replacement (command-line HTTP client)
@@ -52,11 +54,3 @@ mas "Super Agent", id: 1568262835
 mas "Telegram", id: 747648890
 mas "Vimlike", id: 1584519802
 mas "WhatsApp", id: 310633997
-vscode "github.copilot"
-vscode "github.copilot-chat"
-vscode "mongodb.mongodb-vscode"
-vscode "ms-vscode.live-server"
-vscode "ms-vscode.vscode-speech"
-vscode "ms-vsliveshare.vsliveshare"
-vscode "openai.chatgpt"
-vscode "ritwickdey.liveserver"
