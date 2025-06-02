@@ -1,3 +1,6 @@
 [user]
 	email = 174931404+Nico-Bao@users.noreply.github.com
 	name = Nico-Bao
+[core]
+	# got asked to add this when doing a commit due to some separator issue
+	autocrlf = input 
