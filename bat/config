@@ -23,7 +23,6 @@
 #   Example 2: Use ".gitignore"-style highlighting for ".ignore" files
 #--map-syntax "*.ino:C++"
 #--map-syntax ".ignore:Git Ignore"
---map-syntax "zshrc:Bourne Again Shell (bash)" #to highlight the zshrc file 
-# (without dot)
+--map-syntax "zshrc:Bourne Again Shell (bash)" #to highlight the zshrc file (without dot)
 --map-syntax "zshenv:Bourne Again Shell (bash)"
 --map-syntax "Brewfile:Bourne Again Shell (bash)"
